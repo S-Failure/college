@@ -1,0 +1,5 @@
+java -jar payara-micro-5.2022.2.jar --deploy EXTERNAL_EXAM/artifact/EXTERNAL_EXAM.war --port 8085
+
+java -jar payara-micro-5.2022.2.jar --deploy EXTERNAL_EXAM_CLIENT/artifact/EXTERNAL_EXAM_CLIENT.war --port 8087
+
+java -jar jwtenizr.jar
